@@ -130,6 +130,17 @@ main > article > header img {
       align-items: center;
   }
 }
+/* Footer Styles */
+
+footer {
+    background: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+footer a {
+    color: white;
+}
 
 /* Button Styles */
 
