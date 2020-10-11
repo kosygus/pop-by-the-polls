@@ -6,12 +6,15 @@
     <title>Pop by the Polls</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- link to script.js - make sure to defer -->
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <!-- nav element goes here -->
     <nav>
       <a href="./index.html"><img src="./images/logo.jpg" alt="logo"></a>
-      <ul>
+      <img id="hamburger" src="./icons/menu.svg" alt="Hamburger menu"> 
+      <div id="overlay" class="active"></div>
+      <ul id="menu" class="active">
         <li><a href="#issues">Issues</a></li>
         <li><a href="#candidate">Candidate</a></li>
         <li><a href="#polling-place">Polling Place</a></li>
